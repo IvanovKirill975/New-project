@@ -1,0 +1,14 @@
+$color_title: rgb(255, 0, 0)
+$foneSize_title: 28px;
+
+
+.btn_open:{
+    font-size: $foneSize_title;
+    color: $color_title;
+    &:hover + .info_box{
+        display: block;
+    }
+}
+.info_box{
+    display: none;
+}
